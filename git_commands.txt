@@ -1,0 +1,12 @@
+git init                                                      
+clear                                                         
+ls                                                            
+ls -a                                                         
+git -dir                                                      
+clear                                                        
+git add <file>                                                                                                           
+git commit -m "massege"                                  
+git status
+git rm --cached <file>
+rm
+git restore
