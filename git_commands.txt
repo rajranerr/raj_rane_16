@@ -10,3 +10,7 @@ git status
 git rm --cached <file>
 rm
 git restore
+git push origin main
+git remote add origin <url>
+git remote -v
+git remote set-url origin https://tokon url@github.com/rajranerr/raj_rane_16.git
