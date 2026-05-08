@@ -14,3 +14,11 @@ git push origin main
 git remote add origin <url>
 git remote -v
 git remote set-url origin https://tokon url@github.com/rajranerr/raj_rane_16.git
+cd <file>
+mkdir <file>
+git clone <url>
+history
+
+
+
+
