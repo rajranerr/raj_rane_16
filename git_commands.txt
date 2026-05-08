@@ -18,6 +18,7 @@ cd <file>
 mkdir <file>
 git clone <url>
 history
+git pull
 
 
 
