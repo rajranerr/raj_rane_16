@@ -32,4 +32,20 @@ def greet(name):
 
 print(greet("tilak"))
 
+# Data structures:
+  
+# list opretions:
 
+fruits=["apple","banana"]
+fruits.append("mango") #add to end
+print(fruits[1])  #accesses
+
+#dictionary lookup:
+
+student = {"name":"nupur","age":17}
+print(student["name"])
+
+#list comprehension:
+
+squares = [x**2 for x in range(1,10)]
+print(squares)
