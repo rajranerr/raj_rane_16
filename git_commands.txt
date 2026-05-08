@@ -19,6 +19,12 @@ mkdir <file>
 git clone <url>
 history
 git pull
+git branch -m <rename>
+git branch
+git checkout -B <name>
+git branch <name>
+git switch <branch name>
+git checkout <branch name>
 
 
 
