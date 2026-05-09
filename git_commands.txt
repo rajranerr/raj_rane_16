@@ -28,6 +28,8 @@ git checkout <branch name>
 git log
 git log --oneline
 git merge
+git fetch
+
 
 
 
