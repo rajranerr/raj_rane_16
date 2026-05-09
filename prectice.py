@@ -70,3 +70,57 @@ N2 = input("Enter second number:")
 sum_result = float(N1)*float(N2)
 
 print(f"The multiplication of {N1} and {N2} is {sum_result}")
+
+# number guessing game :
+
+import random
+
+secret_number = random.randint(1,10)
+guess = None
+
+print("I'm thinkink of a number between 1 and 10...")
+
+while guess != secret_number:
+    guess = int(input("take a guess:"))
+    
+    if guess < secret_number:
+        print("too low! try again.")
+    elif guess > secret_number:
+        print("too high! try again.")
+    else:
+        print("congratulations! you got it.")
+
+
+# square root function:
+
+import math
+ 
+x=math.sqrt(40)
+print(x)
+
+# pi function
+
+import math
+
+x=math.pi
+print(x)
+
+# area of triangle:
+
+A=float(input("enter the base of the triangle:"))
+B=float(input("enter the height of the triangle:"))
+area = 0.5*A*B
+print(f"The area  of the triagle is : {area:.2f}")
+
+
+# area of circle:
+
+import math
+
+radius = float(input("enter the radiur of the circle:"))
+
+area = math.pi*(radius**2)
+
+print(f"the area of the circle with radius {radius} is:{area:2f}")
+
+
