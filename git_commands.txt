@@ -25,6 +25,10 @@ git checkout -B <name>
 git branch <name>
 git switch <branch name>
 git checkout <branch name>
+git log
+git log --oneline
+git merge
+
 
 
 
