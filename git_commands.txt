@@ -3,7 +3,8 @@ clear
 ls                                                            
 ls -a                                                         
 git -dir                                                      
-clear                                                        
+clear       
+git add .                                                 
 git add <file>                                                                                                           
 git commit -m "massege"                                  
 git status
