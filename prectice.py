@@ -123,4 +123,18 @@ area = math.pi*(radius**2)
 
 print(f"the area of the circle with radius {radius} is:{area:2f}")
 
+# Sequenced data:
+
+#list:
+      #example:
+
+list1 = [0,5,4,[-4,6],["qpple","banana"]]
+print(list1)
+
+# tuple:
+        # example:
+
+        
+        
+
 

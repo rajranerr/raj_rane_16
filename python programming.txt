@@ -1,0 +1,53 @@
+MODULES:
+1. Built in modules
+2. external modules
+
+COMMENTS:
+1. #
+2. """-//-"""
+
+ESCAPE SEQUENCES
+
+1. \n
+2. \" -\\- \"
+3. ' -\\- \'
+
+PRINT STATEMENT:
+
+1. sep
+2. end
+3. file
+4. object
+
+VARIABLE AND DATA TYPES
+
+VARIABLE: 
+
+1. intigers
+2. boolean
+3. string
+4. none
+
+DATA TYPES:
+
+type : it is function 
+
+1. Numeric data :
+
+      function:
+               int
+               float
+               complex
+
+Text data :
+           function:
+                    str
+
+Boolean data:
+             booolean data consists of value true or false
+
+Sequenced data:
+               functions:
+                         list
+                         tuple
+                         
