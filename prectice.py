@@ -179,3 +179,13 @@ user_age =20
 result = check_age(user_age)
 print(result)
 
+# calculate square 
+
+def square(num):
+    return num*num
+
+number =float(input("please enter any numeric value:"))
+
+sqre = square(number)
+
+print("the square  of a given number {0}={1}".format(number,sqre))
