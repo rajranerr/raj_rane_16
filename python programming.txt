@@ -34,14 +34,15 @@ type : it is function
 
 1. Numeric data :
 
-      function:
+ function:
                int
                float
                complex
 
 2. Text data :
-           function:
-                    str
+           
+function:
+              str
 
 3. Boolean data: boolean data consists of value true or false
              
