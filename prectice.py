@@ -198,4 +198,15 @@ if(int(average)>=50 ):
 else:
     print("failed")
     
-    
+ # simple interest 
+
+p=float(input("enter principle(p):"))
+t=float(input("enter time(t):"))
+r=float(input("enter rate of interest(r):"))
+
+si=(p*t*r)/100
+print(si)
+
+
+
+  
