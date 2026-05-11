@@ -134,7 +134,48 @@ print(list1)
 # tuple:
         # example:
 
-        
-        
+tuple1 = (("parrot","sparow"),
+          ("lion","tiger"))
+print(tuple1)        
 
+# mapped data :dict
+
+dict1 ={"name":"kushu","age":18,"canVote":True }
+print(dict1)   
+
+# calcutator using python
+
+# Arithmetic operator:
+
+n=18
+m=6
+
+num1=n+m
+print("addition of",n,"and",m,"is",num1)
+num2=n-m
+print("subtraction of",n,"and",m,"is",num2)
+num3=n*m
+print("multiplication of",n,"and",m,"is",num3)
+num4=n/m
+print("divition of",n,"and",m,"is",num4)
+num5=n%m
+print("modulus of",n,"and",m,"is",num5)
+num6=n//m
+print("floor divition of",n,"and",m,"is",num6)
+num7=n**m
+print("exponential of",n,"and",m,"is",num7)
+
+# defining a function
+
+def check_age(age):
+    if age >=18:
+        return "you are an adult."
+    else:
+        return "youare an minor."
+    
+# Calling the function 
+
+user_age =20
+result = check_age(user_age)
+print(result)
 
