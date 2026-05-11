@@ -189,3 +189,13 @@ number =float(input("please enter any numeric value:"))
 sqre = square(number)
 
 print("the square  of a given number {0}={1}".format(number,sqre))
+
+# passed or failed program
+
+average =input('enter  average :')
+if(int(average)>=50 ):
+    print("passed")
+else:
+    print("failed")
+    
+    
