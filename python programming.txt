@@ -39,15 +39,17 @@ type : it is function
                float
                complex
 
-Text data :
+2. Text data :
            function:
                     str
 
-Boolean data:
-             booolean data consists of value true or false
+3. Boolean data: boolean data consists of value true or false
+             
 
-Sequenced data:
+4. Sequenced data:
                functions:
                          list
                          tuple
+
+5. mapped data : dict
                          
