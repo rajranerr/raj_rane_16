@@ -143,8 +143,6 @@ print(tuple1)
 dict1 ={"name":"kushu","age":18,"canVote":True }
 print(dict1)   
 
-# calcutator using python
-
 # Arithmetic operator:
 
 n=18
@@ -221,8 +219,37 @@ b = temp
 # display swapped values
 print(f"swapped values:  a = {a}, b = {b}")
 
+# generate a randome number:
+
+import random
+print(f"random number: {random.randint(1,200)}")
+
+# convert kilometer to miles:
+kilometers = float(input("Enter distance in kilometers:"))
+
+# conversion_factor: 1 kilometers = 0.621371 miles
+conversion_factor = 0.621371
+miles = kilometers * conversion_factor
+
+print(f"{kilometers} kilometers is equal to {miles} miles")
+
+# Display calender
+
+import calendar
+
+year = int(input("enter year: "))
+month = int(input("enter month: "))
+cal = calendar.month(year,month)
+print(cal)
 
 
+# checking number is positive , nagative or zero
 
+num = float(input("enter a number: "))
+if num > 0:
+    print("it is positive number")
+elif num == 0:
+    print("it is zero")
+else:
+    print("it is negetive number")
 
-  
