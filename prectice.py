@@ -247,9 +247,46 @@ print(cal)
 
 num = float(input("enter a number: "))
 if num > 0:
-    print("it is positive number")
+    print("this is a positive number.")
 elif num == 0:
-    print("it is zero")
+    print("this is a zero.")
 else:
-    print("it is negetive number")
+    print("this is a negetive number.")
+
+# check if number is odd or even
+
+num = float(input("enter a number: "))
+if num%2 == 0:
+    print("this is a even number.")
+else:
+    print("this is a odd number.")
+
+# upper and lower function:
+
+text = "My home Town iS HAIdarPUr"
+# for upper case:
+print(text.upper())
+# for lower case:
+print(text.lower())
+
+# split function:
+name = "i am raj rane."
+# for split
+print(name.split())
+
+# replace function: 
+
+text = "I like bananas. But, Bananas is sweet."
+
+# replece all occurences:
+result = text.replace("bananas","apples")
+print(result)
+
+# replace only the first occurence:
+result = text.replace("s","z",1)
+print(result)
+
+# remove a word:
+result = text.replace("swwet","")
+print(result)
 
