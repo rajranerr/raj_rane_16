@@ -207,6 +207,22 @@ r=float(input("enter rate of interest(r):"))
 si=(p*t*r)/100
 print(si)
 
+# swap two variables:
+
+# input two  variables
+a = input("enter the value of first variable (a):")
+b = input("enter the value of sacond variable (b):")
+# display the original values
+print(f"original values: a = {a}, b = {b}")
+# swap the value using a temporary variable
+temp = a
+a = b
+b = temp
+# display swapped values
+print(f"swapped values:  a = {a}, b = {b}")
+
+
+
 
 
   
