@@ -287,6 +287,53 @@ result = text.replace("s","z",1)
 print(result)
 
 # remove a word:
-result = text.replace("swwet","")
+result = text.replace("sweet","")
 print(result)
 
+# create string type variable
+
+name = "kulalux"
+print("name")
+
+message = "I love kulalux"
+print("message")
+
+# single quote
+name = 'kulalux'
+# double quote
+text = "i believe on my kuladevi"
+# triple quote
+multiline = """this is a my programs of python. """
+
+# Indexing 
+first_char = text[0]
+last_char = text[-6]
+
+# slicing
+substring = name[0:4]
+reversed_text = text[::-1]
+
+# length and case multipulation
+size = len(text) 
+upper_text = text.upper()
+lower_text = text.lower()
+
+# concatenation and repetition
+greet = "hello" + " " + "kulalux"
+cheer = name * 3
+
+# formatting 
+age = 18
+info = f"{name} is {age} years old."
+
+# output result
+print(first_char)
+print(last_char)
+print(substring)
+print(reversed_text)
+print(size)
+print(upper_text)
+print(lower_text)
+print(greet)
+print(cheer)
+print(info)
