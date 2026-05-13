@@ -337,3 +337,11 @@ print(lower_text)
 print(greet)
 print(cheer)
 print(info)
+
+# the multiplication table
+num = int(input("enter multiplication table of: "))
+
+for i in range(1, 11):
+    print(f"{num} x {i} = {num*i}")
+    
+
