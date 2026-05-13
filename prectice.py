@@ -361,3 +361,19 @@ num1 = int(input('enter the number: '))
 num2 = int(input('enter the number: '))
 print("The L.C.M. is", compute_lcm(num1,num2))
 
+# find hcf
+def compute_hcf(x,y):
+    if x > y:
+        smaller = y
+    else:
+        smaller = x
+    for i in range(1, smaller+1):
+        if((x % i == 0) and (y % i == 0)):
+            hcf = i
+    return hcf
+num1 = int(input("enter first number: "))
+num2 = int(input("enter second number: "))
+print("the H.C.F. is", compute_hcf(num1,num2))
+
+
+
