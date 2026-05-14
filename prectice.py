@@ -375,5 +375,43 @@ num1 = int(input("enter first number: "))
 num2 = int(input("enter second number: "))
 print("the H.C.F. is", compute_hcf(num1,num2))
 
+# simple star k pattern
+print("k star pattern")
+size = 7
+for i in range(size):
+    for j in range(size):
+        # Print vertical line AND diagonal lines
+        if j == 0 or i + j == size  // 2 or i - j == size // 2:
+            print("*", end=" ")
+        else:
+            print(" ", end=" ")
+    print()
+
+
+# I star pattern
+print("i star pattern")
+n = 7
+for i in range(n):
+    for j in range(n):
+        if (j == n // 2):
+            print("*", end=" ")
+        else:
+            print(" ", end=" ")
+    print()
+
+# R star pattern
+print("t star pattern")
+
+rows = int(input("Enter number of rows:"))
+
+for i in range(rows):
+    for j in range(rows):
+        # print star for the first row and middle column
+        if i == 0 or j == rows // 2:
+            print("*", end=" ")
+        else:
+            print(" ", end=" ")
+    print() # New line after each row
+
 
 
