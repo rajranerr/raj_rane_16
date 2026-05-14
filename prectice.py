@@ -413,5 +413,42 @@ for i in range(rows):
             print(" ", end=" ")
     print() # New line after each row
 
+# loop program
+print("loop program")
 
+for i in range(1,8):
+    print(i)
+
+# iterating over a list
+
+fruits = ["apple","banana","cherry"]
+for fruit in fruits:
+    print(fruit)
+
+# iterating over a tuple
+
+numbers = (1,2,3,4)
+for number in numbers:
+    print(number)
+
+# iterating over a set 
+
+colors = ("red","blue","pink","yellow")
+for color in colors:
+    print(color)
+
+# iterating over a string
+
+word = "kuladevi"
+for letter in word:
+    print(letter)
+
+# iterating over a dictionary
+
+person = {"name": "kulalux", "age":18, "city": "pune"}
+for key, value in person.items():
+    print(key, ":", value)
+
+# python while loop
+    
 
