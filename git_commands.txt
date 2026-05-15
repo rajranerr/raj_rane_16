@@ -2,7 +2,7 @@ git init
 clear                                                         
 ls                                                            
 ls -a                                                         
-git -dir                                                      
+dir                                                      
 clear       
 git add .                                                 
 git add <file>                                                                                                           
