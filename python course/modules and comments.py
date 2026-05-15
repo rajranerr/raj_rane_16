@@ -131,4 +131,33 @@ print(dict1)
 unique_numbers = {1, 2, 3, 3} 
 print(unique_numbers)
 
-# typecasting in python:
+# control flow and loops
+
+# conditionals: if, elif and else
+
+# if statement: Executes a block of only if a condition is true.
+ # ex:
+age = int(input("Enter your age: "))
+if age >= 18:
+    print("You can vote!")
+
+# if-else statement: Provides an alternative blockif the condition is false.
+# ex:
+age = int(input("Enter a your age: "))
+if age >= 18:
+    print("adult")
+else:
+    print("minor")
+
+# if-elif-else statement:
+# ex:
+score = int(input("Enter score: "))
+if score >= 70:
+    print("grade A")
+elif score >= 60:
+    print("grade B")
+elif score >= 50:
+    print("grade C")
+else:
+    print("grade D")
+
