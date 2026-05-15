@@ -161,3 +161,31 @@ elif score >= 50:
 else:
     print("grade D")
 
+# loops : Loop repeat a block of code multiple times.
+
+# for loop: Iterates over a sequence (like a list, string, or range).
+# ex:
+for i in range(3):
+    print(f"iteration {i}")
+
+# while loop : repeats as long as a specified condition remain true.
+# ex:
+count = 0
+while count < 3:
+    print(count)
+    count += 1
+
+
+# transfer statements:
+
+# break : Immediately terminates the current loop.
+#continue: Skip the rest of the current iteration and moves to the next one.
+#pass : A null statement used as a placeholder when syntex required a statement but you don't want to excute any code.
+
+# ex:
+for num in range(5):
+    if num == 2:
+        continue
+    if num == 4:
+        break
+    print(num)
